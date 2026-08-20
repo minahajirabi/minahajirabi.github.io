@@ -2,24 +2,16 @@
 
 The source for [minahajirabi.github.io](https://minahajirabi.github.io/), hosted with GitHub Pages.
 
-## Add artwork
+## Projects
 
-1. Export each artwork photograph as WebP or JPEG, ideally 1600–2400 px on its longest side and under 1 MB.
-2. Put the files in `assets/artworks/` using lowercase descriptive names, for example `blue-still-life.webp`.
-3. In `index.html`, replace an `.art-placeholder` block with an image:
+Artwork is grouped into descriptive folders under `projects/`:
 
-   ```html
-   <img
-       class="art-image"
-       src="assets/artworks/blue-still-life.webp"
-       alt="Description of the artwork for screen-reader users"
-       width="1600"
-       height="2000"
-       loading="lazy"
-   >
-   ```
+- `material-rendering-2023/`
+- `form-study-2023/`
+- `portrait-study-2021/`
+- `form-study-2021/`
 
-4. Replace the placeholder title, year, medium, and dimensions with the real details.
+Reference photographs remain local and are excluded from Git; only Mina's artwork is published. New artwork images should use lowercase descriptive names and remain below 1 MB where practical.
 
 ## Preview locally
 
