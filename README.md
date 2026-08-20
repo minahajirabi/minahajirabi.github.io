@@ -1,6 +1,6 @@
 # Mina Hajirabi — Art portfolio
 
-The source for [minahajirabi.github.io](https://minahajirabi.github.io/), hosted with GitHub Pages.
+The source for [minahajirabi.github.io](https://minahajirabi.github.io/), hosted with GitHub Pages. The site uses plain HTML and CSS, with a small JavaScript artwork viewer on `projects/index.html` for navigation and zoom controls.
 
 ## Projects
 
