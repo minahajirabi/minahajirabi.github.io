@@ -6,12 +6,14 @@ The source for [minahajirabi.github.io](https://minahajirabi.github.io/), hosted
 
 Artwork is grouped into descriptive folders under `projects/`:
 
+- `oil-detail-study-2024/`
+- `oil-artwork-study-2024/`
 - `material-rendering-2023/`
 - `form-study-2023/`
 - `portrait-study-2021/`
 - `form-study-2021/`
 
-Reference photographs remain local and are excluded from Git; only Mina's artwork is published. New artwork images should use lowercase descriptive names and remain below 1 MB where practical.
+Reference photographs and unpublished process images remain local and are excluded from Git; only Mina's selected artwork is published. New artwork images should use lowercase descriptive names and remain below 1 MB where practical.
 
 ## Preview locally
 

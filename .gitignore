@@ -1,2 +1,5 @@
 # Reference photos used only during the drawing process
 projects/**/*-reference.jpg
+
+# Unpublished progress photos; keep only completed artwork on the website
+projects/**/process-*.jpg
