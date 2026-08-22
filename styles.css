@@ -375,24 +375,20 @@ nav a[aria-current="page"]::after {
 }
 
 .project-cover-frame {
-    position: relative;
     display: grid;
-    height: clamp(16rem, 30vw, 25rem);
+    width: 100%;
+    height: auto;
     overflow: hidden;
     place-items: center;
-    border: 1px solid rgba(47, 36, 28, 0.12);
-    background: var(--cream-deep);
 }
 
 .project-cover img {
-    position: absolute;
-    inset: 0;
     display: block;
-    width: 100%;
-    height: 100%;
-    max-width: none;
-    max-height: none;
-    object-fit: contain;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: clamp(16rem, 30vw, 25rem);
+    border: 1px solid rgba(47, 36, 28, 0.12);
     transition: transform 350ms ease;
 }
 
@@ -735,23 +731,25 @@ nav a[aria-current="page"]::after {
     display: flex;
     max-width: 46rem;
     flex-direction: column;
+    align-items: flex-start;
     gap: clamp(4.5rem, 9vw, 8rem);
 }
 
 .artwork-card {
-    width: 100%;
+    width: fit-content;
+    max-width: 100%;
     margin: 0;
 }
 
 .artwork-image {
-    display: grid;
-    width: 100%;
-    min-height: 16rem;
+    display: inline-grid;
+    width: auto;
+    max-width: 100%;
     padding: 0;
     overflow: hidden;
     place-items: center;
-    border: 1px solid rgba(47, 36, 28, 0.12);
-    background: var(--cream-deep);
+    border: 0;
+    background: transparent;
     cursor: zoom-in;
 }
 
@@ -761,6 +759,7 @@ nav a[aria-current="page"]::after {
     max-width: 100%;
     height: auto;
     max-height: 68vh;
+    border: 1px solid rgba(47, 36, 28, 0.12);
     transition: transform 500ms ease;
 }
 
@@ -1031,7 +1030,11 @@ footer p {
     }
 
     .project-cover-frame {
-        height: min(72vw, 23rem);
+        height: auto;
+    }
+
+    .project-cover img {
+        max-height: none;
     }
 
     .portfolio-project-header h1,
@@ -1052,10 +1055,6 @@ footer p {
         padding-left: 0;
         border-top: 1px solid var(--line);
         border-left: 0;
-    }
-
-    .artwork-image {
-        min-height: 12rem;
     }
 
     .artwork-image img {
