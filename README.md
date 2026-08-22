@@ -13,7 +13,7 @@ Artwork is grouped into descriptive folders under `projects/`:
 - `portrait-study-2021/`
 - `form-study-2021/`
 
-Reference photographs and unpublished process images remain local and are excluded from Git; only Mina's selected artwork is published. New artwork images should use lowercase descriptive names and remain below 1 MB where practical.
+Reference photographs and process images are excluded from the portfolio; each project folder retains only its selected final artwork. Local source material can be kept under the Git-ignored `artwork-source/` directory. New artwork images should use lowercase descriptive names and remain below 1 MB where practical.
 
 ## Preview locally
 

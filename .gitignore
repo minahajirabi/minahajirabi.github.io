@@ -3,3 +3,6 @@ projects/**/*-reference.jpg
 
 # Unpublished progress photos; keep only completed artwork on the website
 projects/**/process-*.jpg
+
+# Local archive of references, details, and progress photos
+/artwork-source/
