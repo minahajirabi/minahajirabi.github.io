@@ -8,6 +8,8 @@ Artwork is grouped into descriptive folders under `projects/`:
 
 - `oil-detail-study-2024/`
 - `oil-artwork-study-2024/`
+- `grape-still-life-2024/`
+- `lemon-still-life-2024/`
 - `material-rendering-2023/`
 - `form-study-2023/`
 - `portrait-study-2021/`
