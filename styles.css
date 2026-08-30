@@ -574,7 +574,11 @@ nav a[aria-current="page"]::after {
 .portfolio-sidebar {
     position: sticky;
     top: 7rem;
+    max-height: calc(100vh - 8rem);
+    overflow-y: auto;
     align-self: start;
+    padding-right: 0.4rem;
+    scrollbar-width: thin;
 }
 
 .portfolio-sidebar > .eyebrow {
@@ -590,11 +594,11 @@ nav a[aria-current="page"]::after {
     display: grid;
     grid-template-columns: 1.8rem minmax(0, 1fr);
     gap: 0.45rem;
-    padding: 0.9rem 0;
+    padding: 0.62rem 0;
     border-bottom: 1px solid var(--line);
     color: var(--muted);
     font-family: var(--serif);
-    font-size: 1.15rem;
+    font-size: 1.02rem;
     letter-spacing: 0;
     line-height: 1.15;
     text-decoration: none;
@@ -801,10 +805,12 @@ nav a[aria-current="page"]::after {
     .portfolio-sidebar {
         min-width: 0;
         max-width: 100vw;
+        max-height: none;
         top: 4.5rem;
         z-index: 8;
         margin: 0 calc(clamp(1.25rem, 5vw, 5.5rem) * -1);
         padding: 0.85rem clamp(1.25rem, 5vw, 5.5rem);
+        overflow-y: visible;
         border-bottom: 1px solid var(--line);
         background: rgba(243, 236, 220, 0.95);
         backdrop-filter: blur(14px);
